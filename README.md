@@ -1,4 +1,4 @@
-# Argonne-SDL
+# Self Driving Lab - Closing the loop at Argonne APS
 
 
 ## Using AWS Robomaker to get U3E robots working in simulation mode using Gazebo
