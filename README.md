@@ -12,8 +12,14 @@ I found that AWS RoboMaker to the fastest way to setup a collaborative developme
 ## Using AWS RoboMaker to set ROS environments for Robot development
 
 1. Create a AWS account at [AWS](https://aws.amazon.com) using your email address
-2. In the AWS console, go to RoboMaker service and click on Development environments ![create development environment](images/Robomaker1.png)
-
+2. In the AWS console, go to RoboMaker service and click on Development environments - Select create development environment ![create development environment](images/Robomaker1.png)
+3. ![Screenshot1](images/2.png) 
+4. Launching RoboMaker ![Screenshot2](images/3.png)
+5. RoboMaker is launched. You will see the command window below and an option to launch Virtual Desktop ![Screenshot3](images/4.png)
+6. Virtual Desktop that is launched will open in a new browser window  ![Screenshot4](images/5.png)
+7. Typed ```gazebo ``` on the bottom command window and an empty gazebo world will be launched in virtual desktop ![Screenshot5](images/6.png)
+8. Empty virtual world launched using Gazebo ![Screenshot6](images/7.png)
+9. Then run the following commands
 ```
 $ source /opt/ros/<your_ros_version>/setup.bash
 $ mkdir -p catkin_ws/src && cd catkin_ws
@@ -29,25 +35,12 @@ $ rosdep install --from-paths src --ignore-src -y
 $ catkin_make_isolated
 $ source devel_isolated/setup.bash
 ```
-
-And finally
-
-```
-
-roslaunch ur_gazebo ur5.launch
-
-```
-
-![Screenshot1](images/2.png)
-![Screenshot2](images/3.png)
-![Screenshot3](images/4.png)
-![Screenshot4](images/5.png)
-![Screenshot5](images/6.png)
-![Screenshot6](images/7.png)
 ![Screenshot7](images/8.png)
-![Screenshot8](images/9.png)
-![Screenshot9](images/10.png)
-![Screenshot10](images/11.png)
+11. Launch UR3 Robot using ```roslaunch ur_gazebo ur5.launch``` ![Screenshot8](images/9.png)
+12. Command screen after last command ![Screenshot9](images/10.png)
+13. UR3E in Gazebo ![Screenshot10](images/11.png)
+
+
 
 
 <br>
