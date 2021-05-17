@@ -49,7 +49,7 @@ roslaunch ur_gazebo ur5.launch
 
 
 <br>
-Useful links:
-1. AWS Tutorial on using TurtleBot with Robomaker: https://aws.amazon.com/blogs/aws/aws-robomaker-develop-test-deploy-and-manage-intelligent-robotics-apps/
+Useful links:<br>
+1. AWS Tutorial on using TurtleBot with Robomaker: https://aws.amazon.com/blogs/aws/aws-robomaker-develop-test-deploy-and-manage-intelligent-robotics-apps/ <br>
 2. Removing dpkg lock: https://itsfoss.com/could-not-get-lock-error/
 
