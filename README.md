@@ -21,7 +21,7 @@ I found that AWS RoboMaker to the fastest way to setup a collaborative developme
 9. Empty virtual world launched using Gazebo ![Screenshot6](images/7.png)
 10. Then run the following commands
 ```
-$ source /opt/ros/<your_ros_version>/setup.bash
+$ source /opt/ros/melodic/setup.bash
 $ mkdir -p catkin_ws/src && cd catkin_ws
 $ git clone -b boost https://github.com/UniversalRobots/Universal_Robots_Client_Library.git \
  src/Universal_Robots_Client_Library
