@@ -10,7 +10,7 @@ I found that AWS Robomaker is the quickest way to setup a collaborative developm
 ## Using AWS Robomaker to set ROS environments for Robot development
 
 1. Create a AWS account at [AWS](https://aws.amazon.com) using your email address
-2. In the AWS console, click on ![AWS Robomaker](images/Robmaker1.png)
+2. In the AWS console, click on ![AWS Robomaker](Robmaker1.png)
 
 ```
 $ source /opt/ros/<your_ros_version>/setup.bash
