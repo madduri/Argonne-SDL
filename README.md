@@ -38,6 +38,20 @@ And finally
 roslaunch ur_gazebo ur5.launch
 
 ```
+
+![Screenshot1](images/2.png)
+![Screenshot2](images/3.png)
+![Screenshot3](images/4.png)
+![Screenshot4](images/5.png)
+![Screenshot5](images/6.png)
+![Screenshot6](images/7.png)
+![Screenshot7](images/8.png)
+![Screenshot8](images/9.png)
+![Screenshot9](images/10.png)
+![Screenshot10](images/11.png)
+
+
+<br>
 Useful links:
 1. AWS Tutorial on using TurtleBot with Robomaker: https://aws.amazon.com/blogs/aws/aws-robomaker-develop-test-deploy-and-manage-intelligent-robotics-apps/
 2. Removing dpkg lock: https://itsfoss.com/could-not-get-lock-error/
