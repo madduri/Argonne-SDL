@@ -14,11 +14,7 @@ I found that AWS RoboMaker to the fastest way to setup a collaborative developme
 
 ```
 $ source /opt/ros/<your_ros_version>/setup.bash
-
-```
 $ mkdir -p catkin_ws/src && cd catkin_ws
-
-```
 $ git clone -b boost https://github.com/UniversalRobots/Universal_Robots_Client_Library.git \
  src/Universal_Robots_Client_Library
 $ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git \
@@ -31,6 +27,7 @@ $ rosdep install --from-paths src --ignore-src -y
 $ catkin_make_isolated
 $ source devel_isolated/setup.bash
 ```
+
 And finally
 
 ```
