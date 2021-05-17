@@ -15,7 +15,7 @@ I found that AWS RoboMaker to the fastest way to setup a collaborative developme
 2. In the AWS console, go to RoboMaker service and click on Development environments - Select create development environment ![create development environment](images/Robomaker1.png)
 3. ![Screenshot1](images/2.png) 
 4. Launching RoboMaker ![Screenshot2](images/3.png)
-5. RoboMaker is launched. You will see the command window below and an option to launch Virtual Desktop. In the command window run ```export DISPLAY=:1```  which will set X to the virtual desktop ![Screenshot3](images/4.png)
+5. RoboMaker is launched. You will see the command window below and an option to launch Virtual Desktop. In the command window run ```export DISPLAY=:0```  which will set X to the virtual desktop ![Screenshot3](images/4.png)
 7. Virtual Desktop that is launched will open in a new browser window  ![Screenshot4](images/5.png)
 8. In the Virtual Desktop, find "Activities" and type Gazebo ![Screenshot5](images/6.png)
 9. Empty virtual world launched using Gazebo ![Screenshot6](images/7.png)
