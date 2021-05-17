@@ -5,7 +5,9 @@
 
 The goal is to get ROS working using AWS Robomaker with a UR3E (Universal Robot) working in a Gazebo simulation mode. Next, we want to integrate EPICS/BlueSky to get data from beamline. We want to use the data from beamline streamed and determine an action based on the data and have the simulation in Gazebo updated. Subsequently, we will replace Gazebo with real robot control.
 
-I found that AWS RoboMaker to the fastest way to setup a collaborative development environment (especially if you have a macOS laptop)
+I found that AWS RoboMaker to the fastest way to setup a collaborative development environment (especially if you have a macOS laptop). The costs of my experiments on AWS was fairly low -> $1.68. 
+
+![Costs](images/13.png)
 
 ## Using AWS RoboMaker to set ROS environments for Robot development
 
